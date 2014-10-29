@@ -1,0 +1,16 @@
+Reporting bugs, glitches and errors should be in a free form,
+containing the following information:
+ * What system are you running (as exact as possible)
+ * If system is Linux/Unix - what Window-Manager are you using
+ * What did you do before the error has occured
+ * What happened when it occured
+ * What error did you get
+ * If you can, copy the whole error log and send it to pastebin
+   or similar website. Include the link in the report,
+   or if the error log not very long just send it via email.
+   Usualy 5-10 last lines of output are enough.
+
+Please send reports to kulverstukas@kaime.lt
+In the Subject field write: D0xBase error report
+
+Thank you :)
