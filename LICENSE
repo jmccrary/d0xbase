@@ -1,0 +1,29 @@
+=================================================
+Copyright 2011 Kulverstukas
+
+	This file is part of D0xBase.
+
+	D0xBase is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation version 3
+
+	D0xBase is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with D0xBase.  If not, see http://www.gnu.org/licenses/
+=================================================
+
+Shouts: Evilzone.org
+You can contact me at: kulverstukas@kaime.lt
+--------
+Description:
+  This module is part of "D0xBase" project.
+  Any modification without knowing what you are doing will result
+  in unwanted behavior and can stop working.
+
+  This module is for generating a configuration file for the program.
+--------
+

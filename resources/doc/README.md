@@ -1,26 +1,10 @@
-##D0xBase Information
-
-| Name      | Version      | Release Date |
--------------------------------------------
-| `D0xBase` | `0.1`        | `2011.07.20` |
--------------------------------------------
-| `D0xBase` | `0.2+(beta)` | `2012.09.26` |
--------------------------------------------
-
-Started on: `2011.07.20`  
-Original Authors: `Kulverstukas && Factionwars`  
-
-####Contributors
-* Polyphony (2014.10.29)  
-
-Release date: `2012.09.26`  
-Project name: `D0xBase`  
-Version: 0.4+alpha  
-Copyright (C) 2011 Kulverstukas, Factionwars  
+Release date: 2012.09.26
+Project name: D0xBase
+Version: 0.2 (BETA release)
+Copyright (C) 2011 Kulverstukas, Factionwars
 
 *******************************************************************
-
-###License
+This file is part of D0xBase.
 
 D0xBase is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -30,23 +14,23 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
-along with D0xBase.  If not, see http://www.gnu.org/licenses/  
-
+along with D0xBase.  If not, see http://www.gnu.org/licenses/
 *******************************************************************
 
 ###SYSTEM PREREQUISITES
-[Python 2.7.x](https://www.python.org/downloads/)  
-[Urwid version >= 1.0]()
+Python 2.7
+Urwid version 1.0.2
 
-Included "Urwid" version is slightly modified
-to display regular symbols instead of UTF8 for
-lines around text blocks and little modification
-to the buttons. This was done to provide better
-compatability with most of the Linux terminals.
-
+ *** NOTE ***
+  Included "Urwid" version is slightly modified
+  to display regular symbols instead of UTF8 for
+  lines around text blocks and little modification
+  to the buttons. This was done to provide better
+  compatability with most of the Linux terminals.
+ *** NOTE ***
  @Linux:
    * CURSES/NCURSES
-   * (Optional) SSH for remote usage
+   * SSH for remote usage (Optional)
  @Windows:
    * Cygwin (see below for details)
 
