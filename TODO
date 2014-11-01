@@ -1,0 +1,13 @@
+Things to do... (there's quite a bit to be done)
+
+Refactoring:
+	* Fix that god-awful README.  I'm working on it, but it's a pretty poor attemt at using GFM to 
+		generate a table.
+	* Still need to continue to refactor most of the codebase
+	* When refactorization is mostly complete, add a comment over the import statement in start.py
+
+Features:
+	* Possibly add a code-style file describing how not to contribute
+
+Bugs:
+	* Configuration file input/output issues need to be fixed.

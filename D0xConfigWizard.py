@@ -3,11 +3,20 @@
 
 import ConfigParser
 import os
+import hashlib
+
+# I'm going to try something bold here... Writing a ew class named ConfigFile
+# should help eliminate some of these awful variable name redundancies.
+class ConfigFile:
+	def __init__(self):
+		self.name = 'd0xconfig.ini'
+		self.default_path = 'resources/d0xconfig.ini'
+		
 
 class ConfigWizard:
-	def __init__(self, config):
-		self.config = config
-		self.filepath = 'resources/d0xconfig.ini'
+	def __init__(self, conf_object):
+		self.conf_object = conf_object
+		# We need to run this wizard through some kind of urwid interface.
 		self.def_conf_desc = [
 			'Would you like see the program version printed onscreen? [y/n]: ',
 			'Want to display the entry ID when adding a new record? [y/n]: ',
@@ -60,14 +69,19 @@ class ConfigWizard:
 			self.config.write(default_config_file)
 	
 	def remove_conf():
-		if os.path.isfile('resources/d0xconfig.ini'):
-			os.remove('resources/d0xconfig.ini')
+		if os.path.isfile(self.filepath):
+			os.remove(self.filepath)
 	
 	def check_for_conf(self):
-		if os.path.isfile('resources/d0xconfig.ini'):
-			with open('resources/d0xconfig.ini', 'r+') as conf_file:
-				# what do?? halp pls
-				pass
+		file_integrity = ''
+		if os.path.isfile(self.filepath):
+			file_hash = hashlib.md5()
+			with open(self.filename "r+b") as f:
+				file_hash = hashlib.md5(f.read()).hexdigest
+			if file_hash == '6fa8f4cc592d2739146a1664ba25a522':
+				return file_integrity = 'good'
+			else:
+				return file_integrity = 'bad'
 
 if __name__ == '__main__':
 	print '''

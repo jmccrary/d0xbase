@@ -46,6 +46,8 @@ import ConfigParser
 from optparse import OptionParser
 
 
+# TODO: somebody needs to refactor this, I'm unfamiliar with urwid but if somebody wants 
+# they can take it on themeselves.  Just file a github issue and say you're doing it 
 class FrontEnd:
 	def __init__(self):
 		self.texts = D0xText.D0xText()
@@ -85,10 +87,8 @@ class FrontEnd:
 				print '"%s" does\'t seem to exist or is not a file' % importFile
 
 parser = OptionParser()
-parser.add_option('-s', '--screen', 
-	help='Which homescreen to use when D0xbase begins', metavar='main')
-parser.add_option('-i', '--import', 
-	help='For importing a record from XML', metavar='file.xml')
+parser.add_option('-s', '--screen', help='Which homescreen to use when D0xbase begins', metavar='main')
+parser.add_option('-i', '--import', help='For importing a record from XML', metavar='file.xml')
 
 (options, args) = parser.parse_args()
 options = vars(options)
